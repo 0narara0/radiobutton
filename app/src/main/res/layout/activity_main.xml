@@ -34,10 +34,12 @@
 
     <CheckBox
         android:id="@+id/checkbox2"
-        android:onClick="onclickwidget"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onclickwidget"
         android:text="CheckBox02" />
+
+
 
     <TextView
         android:id="@+id/textview"

@@ -16,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+
     public void onclickwidget(View view){
         int id = view.getId();
         String text;
-
         TextView textView = (TextView)findViewById(R.id.textview);
-
 
         switch (id){
             case R.id.radiobutton01:
@@ -45,5 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 //        Toast.makeText(view.getContext(),text,Toast.LENGTH_SHORT).show();
+
     }
+
+
 }
